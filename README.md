@@ -9,7 +9,7 @@
 
 > 我会及时去更新我的作品
 
-> GitHub主页：https://github.com/wuyuncheng-26
+> [我的GitHub主页](https://github.com/wuyuncheng-26)
 
 ***你可以从这里查看我的部分作品：***
 
