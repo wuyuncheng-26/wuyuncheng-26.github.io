@@ -18,6 +18,8 @@
 
 [打怪兽](https://github.com/wuyuncheng-26/Python-programs/blob/master/%E6%89%93%E6%80%AA%E5%85%BD.py)
 
+其他作品可以在[这里](https://github.com/wuyuncheng-26/Python-programs)找到
+
 ### 小知识
 
 > Python里输出的内容可以更改颜色
