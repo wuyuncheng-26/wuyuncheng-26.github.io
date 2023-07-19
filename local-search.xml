@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>速度超级快的numpy</title>
+    <link href="/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84numpy/"/>
+    <url>/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84numpy/</url>
+    
+    <content type="html"><![CDATA[<p><strong>numpy</strong>是一个Python的第三方库，它里面提供了更快的数组，我们可以用<code>pip install numpy</code>来安装它。</p><p><strong>numpy</strong>里面提供了<strong>ndarray</strong>，它比Python内置的数组快。</p><p>例如，我想用<strong>numpy</strong>创造一个数组a，里面有元素1、2、3、4和5，我们可以这样做：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy<br>a = numpy.ndarray([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>])<br></code></pre></td></tr></table></figure><p><strong>numpy</strong>官网：<a href="https://numpy.org/">https://numpy.org/</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Python之禅</title>
     <link href="/2023/07/19/Python%E4%B9%8B%E7%A6%85/"/>
     <url>/2023/07/19/Python%E4%B9%8B%E7%A6%85/</url>
