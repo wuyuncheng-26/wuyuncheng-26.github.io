@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>如何生成字符画</title>
+    <link href="/2023/07/25/%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E5%AD%97%E7%AC%A6%E7%94%BB/"/>
+    <url>/2023/07/25/%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E5%AD%97%E7%AC%A6%E7%94%BB/</url>
+    
+    <content type="html"><![CDATA[<p>生成字符画需要安装软件包<strong>figlet</strong></p><p>Ubuntu安装方法：<code>sudo apt install figlet</code></p><p>CentOS安装方法：<code>sudo yum install figlet</code></p><p>安装完后，你可以输入<code>fluget test</code>来测试一下是否安装成功</p><p>下面是两个演示如何使用的例子：</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs awk">$ figlet -f slant Python<br>    ____        __  __<br>   <span class="hljs-regexp">/ __ \__  __/</span> <span class="hljs-regexp">/_/</span> /_  ____  ____<br>  <span class="hljs-regexp">/ /</span>_<span class="hljs-regexp">/ /</span> <span class="hljs-regexp">/ /</span> <span class="hljs-regexp">/ __/</span> __ \<span class="hljs-regexp">/ __ \/ __ \</span><br><span class="hljs-regexp"> /</span> ____<span class="hljs-regexp">/ /</span>_<span class="hljs-regexp">/ /</span> <span class="hljs-regexp">/_/</span> <span class="hljs-regexp">/ /</span> <span class="hljs-regexp">/ /</span>_<span class="hljs-regexp">/ /</span> <span class="hljs-regexp">/ /</span> /<br><span class="hljs-regexp">/_/</span>    \__, <span class="hljs-regexp">/\__/</span>_<span class="hljs-regexp">/ /</span>_<span class="hljs-regexp">/\____/</span>_<span class="hljs-regexp">/ /</span>_/<br>      <span class="hljs-regexp">/____/</span><br></code></pre></td></tr></table></figure><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs gherkin">$ figlet -f big Java<br>      _<br>     |<span class="hljs-string"> </span>|<br>     |<span class="hljs-string"> </span>|<span class="hljs-string"> __ ___   ____ _</span><br><span class="hljs-string"> _   </span>|<span class="hljs-string"> </span>|<span class="hljs-string">/ _` \ \ / / _` </span>|<br>|<span class="hljs-string"> </span>|<span class="hljs-string">__</span>|<span class="hljs-string"> </span>|<span class="hljs-string"> (_</span>|<span class="hljs-string"> </span>|<span class="hljs-string">\ V / (_</span>|<span class="hljs-string"> </span>|<br> \____/ \__,_|<span class="hljs-string"> \_/ \__,_</span>|<br></code></pre></td></tr></table></figure><p>这两个例子中的-f后面可以指定字符画的样式，可用的样式可以通过<code>showfigfonts</code>查看</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>速度超级快的numpy</title>
     <link href="/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84numpy/"/>
     <url>/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84numpy/</url>
