@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>GitHub 全是英文看不懂？教你把它变成中文！</title>
+    <link href="/2023/12/01/GitHub-%E5%85%A8%E6%98%AF%E8%8B%B1%E6%96%87%E7%9C%8B%E4%B8%8D%E6%87%82%EF%BC%9F%E6%95%99%E4%BD%A0%E6%8A%8A%E5%AE%83%E5%8F%98%E6%88%90%E4%B8%AD%E6%96%87%EF%BC%81/"/>
+    <url>/2023/12/01/GitHub-%E5%85%A8%E6%98%AF%E8%8B%B1%E6%96%87%E7%9C%8B%E4%B8%8D%E6%87%82%EF%BC%9F%E6%95%99%E4%BD%A0%E6%8A%8A%E5%AE%83%E5%8F%98%E6%88%90%E4%B8%AD%E6%96%87%EF%BC%81/</url>
+    
+    <content type="html"><![CDATA[<p>今天我们要介绍的项目是一个<a href="https://github.com/maboloshi/github-chinese">汉化 GitHub 的脚本</a></p><p>在项目的文档里明确的写着安装过程，请大家自己查阅</p><p>安装视频：<a href="https://www.bilibili.com/video/BV1iF411k7cu">https://www.bilibili.com/video/BV1iF411k7cu</a></p><p>有什么问题可以在视频评论区找我</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>共享的 ChatGPT 账号，不用魔法！</title>
     <link href="/2023/09/21/%E5%85%B1%E4%BA%AB%E7%9A%84-ChatGPT-%E8%B4%A6%E5%8F%B7%EF%BC%8C%E4%B8%8D%E7%94%A8%E9%AD%94%E6%B3%95%EF%BC%81/"/>
     <url>/2023/09/21/%E5%85%B1%E4%BA%AB%E7%9A%84-ChatGPT-%E8%B4%A6%E5%8F%B7%EF%BC%8C%E4%B8%8D%E7%94%A8%E9%AD%94%E6%B3%95%EF%BC%81/</url>
@@ -47,7 +60,7 @@
     <link href="/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84numpy/"/>
     <url>/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84numpy/</url>
     
-    <content type="html"><![CDATA[<p><strong>numpy</strong>是一个Python的第三方库，它里面提供了更快的数组，我们可以用<code>pip install numpy</code>来安装它。</p><p><strong>numpy</strong>里面提供了<strong>ndarray</strong>，它比Python内置的数组快。</p><p>例如，我想用<strong>numpy</strong>创造一个数组a，里面有元素1、2、3、4和5，我们可以这样做：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy<br>a = numpy.ndarray([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>])<br></code></pre></td></tr></table></figure><p><strong>numpy</strong>官网：<a href="https://numpy.org/">https://numpy.org/</a></p>]]></content>
+    <content type="html"><![CDATA[<p><strong>numpy</strong>是一个Python的第三方库，它里面提供了更快的数组，我们可以用<code>pip install numpy</code>来安装它。</p><p><strong>numpy</strong>里面提供了<strong>ndarray</strong>，它比Python内置的数组快。</p><p>例如，我想用<strong>numpy</strong>创造一个数组a，里面有元素1、2、3、4和5，我们可以这样做：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy<br>a = numpy.ndarray([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>])<br></code></pre></td></tr></table></figure><p><strong>numpy</strong>官网：<a href="https://numpy.org/">https://numpy.org</a></p>]]></content>
     
     
     
