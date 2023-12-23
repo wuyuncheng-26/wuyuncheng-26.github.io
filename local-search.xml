@@ -82,24 +82,11 @@
   
   
   <entry>
-    <title>速度超级快的numpy</title>
-    <link href="/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84numpy/"/>
-    <url>/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84numpy/</url>
+    <title>速度超级快的 numpy</title>
+    <link href="/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84-numpy/"/>
+    <url>/2023/07/19/%E9%80%9F%E5%BA%A6%E8%B6%85%E7%BA%A7%E5%BF%AB%E7%9A%84-numpy/</url>
     
-    <content type="html"><![CDATA[<p><strong>numpy</strong>是一个Python的第三方库，它里面提供了更快的数组，我们可以用<code>pip install numpy</code>来安装它。</p><p><strong>numpy</strong>里面提供了<strong>ndarray</strong>，它比Python内置的数组快。</p><p>例如，我想用<strong>numpy</strong>创造一个数组a，里面有元素1、2、3、4和5，我们可以这样做：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy<br>a = numpy.ndarray([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>])<br></code></pre></td></tr></table></figure><p><strong>numpy</strong>官网：<a href="https://numpy.org/">https://numpy.org</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Python之禅</title>
-    <link href="/2023/07/19/Python%E4%B9%8B%E7%A6%85/"/>
-    <url>/2023/07/19/Python%E4%B9%8B%E7%A6%85/</url>
-    
-    <content type="html"><![CDATA[<p>在Python中输入<code>import this</code>就可以看到Python之禅</p><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs applescript">The Zen <span class="hljs-keyword">of</span> Python, <span class="hljs-keyword">by</span> Tim Peters<br><br>Beautiful <span class="hljs-keyword">is</span> better than ugly.<br>Explicit <span class="hljs-keyword">is</span> better than implicit.<br>Simple <span class="hljs-keyword">is</span> better than complex.<br>Complex <span class="hljs-keyword">is</span> better than complicated.<br>Flat <span class="hljs-keyword">is</span> better than nested.<br>Sparse <span class="hljs-keyword">is</span> better than dense.<br>Readability counts.<br>Special cases aren&#x27;t special enough <span class="hljs-keyword">to</span> break <span class="hljs-keyword">the</span> rules.<br>Although practicality beats purity.<br>Errors should never pass silently.<br>Unless explicitly silenced.<br>In <span class="hljs-keyword">the</span> face <span class="hljs-keyword">of</span> ambiguity, refuse <span class="hljs-keyword">the</span> temptation <span class="hljs-keyword">to</span> guess.<br>There should be one<span class="hljs-comment">-- and preferably only one --obvious way to do it.</span><br>Although <span class="hljs-keyword">that</span> way may <span class="hljs-keyword">not</span> be obvious <span class="hljs-keyword">at</span> <span class="hljs-keyword">first</span> unless you&#x27;re Dutch.<br>Now <span class="hljs-keyword">is</span> better than never.<br>Although never <span class="hljs-keyword">is</span> often better than *right* now.<br>If <span class="hljs-keyword">the</span> implementation <span class="hljs-keyword">is</span> hard <span class="hljs-keyword">to</span> explain, <span class="hljs-keyword">it</span>&#x27;s a bad idea.<br>If <span class="hljs-keyword">the</span> implementation <span class="hljs-keyword">is</span> easy <span class="hljs-keyword">to</span> explain, <span class="hljs-keyword">it</span> may be a good idea.<br>Namespaces are one honking great idea <span class="hljs-comment">-- let&#x27;s do more of those!</span><br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><strong>numpy</strong> 是一个 Python 的第三方库，它里面提供了更快的数组，我们可以用<code>pip install numpy</code>来安装它。</p><p><strong>numpy</strong> 里面提供了 <strong>ndarray</strong>，它比Python内置的列表快。</p><p>例如，我想用 <strong>numpy</strong> 创造一个数组a，里面有元素1、2、3、4和5，我们可以这样做：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy<br>a = numpy.ndarray([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>])<br></code></pre></td></tr></table></figure><p><strong>numpy</strong>官网：<a href="https://numpy.org/">https://numpy.org</a></p>]]></content>
     
     
     
@@ -108,11 +95,24 @@
   
   
   <entry>
-    <title>Python输出改变颜色</title>
-    <link href="/2023/07/19/Python%E8%BE%93%E5%87%BA%E6%94%B9%E5%8F%98%E9%A2%9C%E8%89%B2/"/>
-    <url>/2023/07/19/Python%E8%BE%93%E5%87%BA%E6%94%B9%E5%8F%98%E9%A2%9C%E8%89%B2/</url>
+    <title>Python 之禅</title>
+    <link href="/2023/07/19/Python-%E4%B9%8B%E7%A6%85/"/>
+    <url>/2023/07/19/Python-%E4%B9%8B%E7%A6%85/</url>
     
-    <content type="html"><![CDATA[<p>我们可以运用<code>print(&quot;\033[显示方式;字体颜色;背景颜色 + m + 内容 + \033[0m&quot;)</code>来给要输出的内容改变颜色</p><p>比如说<code>print(&quot;\033[1;33;44mtest\033[0m&quot;)</code>就可以显示出高亮且字体颜色为黄色，背景颜色为蓝色的test</p>]]></content>
+    <content type="html"><![CDATA[<p>在 Python 中输入<code>import this</code>就可以看到 Python 之禅</p><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs applescript">The Zen <span class="hljs-keyword">of</span> Python, <span class="hljs-keyword">by</span> Tim Peters<br><br>Beautiful <span class="hljs-keyword">is</span> better than ugly.<br>Explicit <span class="hljs-keyword">is</span> better than implicit.<br>Simple <span class="hljs-keyword">is</span> better than complex.<br>Complex <span class="hljs-keyword">is</span> better than complicated.<br>Flat <span class="hljs-keyword">is</span> better than nested.<br>Sparse <span class="hljs-keyword">is</span> better than dense.<br>Readability counts.<br>Special cases aren&#x27;t special enough <span class="hljs-keyword">to</span> break <span class="hljs-keyword">the</span> rules.<br>Although practicality beats purity.<br>Errors should never pass silently.<br>Unless explicitly silenced.<br>In <span class="hljs-keyword">the</span> face <span class="hljs-keyword">of</span> ambiguity, refuse <span class="hljs-keyword">the</span> temptation <span class="hljs-keyword">to</span> guess.<br>There should be one<span class="hljs-comment">-- and preferably only one --obvious way to do it.</span><br>Although <span class="hljs-keyword">that</span> way may <span class="hljs-keyword">not</span> be obvious <span class="hljs-keyword">at</span> <span class="hljs-keyword">first</span> unless you&#x27;re Dutch.<br>Now <span class="hljs-keyword">is</span> better than never.<br>Although never <span class="hljs-keyword">is</span> often better than *right* now.<br>If <span class="hljs-keyword">the</span> implementation <span class="hljs-keyword">is</span> hard <span class="hljs-keyword">to</span> explain, <span class="hljs-keyword">it</span>&#x27;s a bad idea.<br>If <span class="hljs-keyword">the</span> implementation <span class="hljs-keyword">is</span> easy <span class="hljs-keyword">to</span> explain, <span class="hljs-keyword">it</span> may be a good idea.<br>Namespaces are one honking great idea <span class="hljs-comment">-- let&#x27;s do more of those!</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Python 输出改变颜色</title>
+    <link href="/2023/07/19/Python-%E8%BE%93%E5%87%BA%E6%94%B9%E5%8F%98%E9%A2%9C%E8%89%B2/"/>
+    <url>/2023/07/19/Python-%E8%BE%93%E5%87%BA%E6%94%B9%E5%8F%98%E9%A2%9C%E8%89%B2/</url>
+    
+    <content type="html"><![CDATA[<p>我们可以运用<code>print(&quot;\033[显示方式;字体颜色;背景颜色 + m + 内容 + \033[0m&quot;)</code>来给要输出的内容改变颜色</p><p>比如说<code>print(&quot;\033[1;33;44mtest\033[0m&quot;)</code>就可以显示出高亮且字体颜色为黄色，背景颜色为蓝色的 test</p>]]></content>
     
     
     
