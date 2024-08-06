@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>关于 Chrome 127 及更高版本无法使用 GitHub 汉化脚本的问题</title>
+    <link href="/2024/08/06/%E5%85%B3%E4%BA%8E-Chrome-127-%E5%8F%8A%E6%9B%B4%E9%AB%98%E7%89%88%E6%9C%AC%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8-GitHub-%E6%B1%89%E5%8C%96%E8%84%9A%E6%9C%AC%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <url>/2024/08/06/%E5%85%B3%E4%BA%8E-Chrome-127-%E5%8F%8A%E6%9B%B4%E9%AB%98%E7%89%88%E6%9C%AC%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8-GitHub-%E6%B1%89%E5%8C%96%E8%84%9A%E6%9C%AC%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<p>原因是 Chrome 127 及更高版本，陆续切换到 Manifest V3，目前已知 Tampermonkey 5.2.1 以上版本支持，详见 <a href="https://github.com/maboloshi/github-chinese/issues/234">#234</a> 讨论</p><p>解决方案：</p><ol><li>必须安装 Tampermonkey 5.2.1 以上版本，其他脚本管理器暂不支持</li><li>必须在浏览器的 “扩展程序” 管理中开启 “开发者模式”</li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>用不开魔法的最正规方法来使用 GPT</title>
     <link href="/2023/12/27/%E7%94%A8%E4%B8%8D%E5%BC%80%E9%AD%94%E6%B3%95%E7%9A%84%E6%9C%80%E6%AD%A3%E8%A7%84%E6%96%B9%E6%B3%95%E6%9D%A5%E4%BD%BF%E7%94%A8-GPT/"/>
     <url>/2023/12/27/%E7%94%A8%E4%B8%8D%E5%BC%80%E9%AD%94%E6%B3%95%E7%9A%84%E6%9C%80%E6%AD%A3%E8%A7%84%E6%96%B9%E6%B3%95%E6%9D%A5%E4%BD%BF%E7%94%A8-GPT/</url>
@@ -47,7 +60,7 @@
     <link href="/2023/12/01/GitHub-%E5%85%A8%E6%98%AF%E8%8B%B1%E6%96%87%E7%9C%8B%E4%B8%8D%E6%87%82%EF%BC%9F%E6%95%99%E4%BD%A0%E6%8A%8A%E5%AE%83%E5%8F%98%E6%88%90%E4%B8%AD%E6%96%87%EF%BC%81/"/>
     <url>/2023/12/01/GitHub-%E5%85%A8%E6%98%AF%E8%8B%B1%E6%96%87%E7%9C%8B%E4%B8%8D%E6%87%82%EF%BC%9F%E6%95%99%E4%BD%A0%E6%8A%8A%E5%AE%83%E5%8F%98%E6%88%90%E4%B8%AD%E6%96%87%EF%BC%81/</url>
     
-    <content type="html"><![CDATA[<p>今天我们要介绍的项目是一个<a href="https://github.com/maboloshi/github-chinese">汉化 GitHub 的脚本</a></p><p>在项目的文档里明确的写着安装过程，请大家自己查阅</p><p>安装视频：<a href="https://www.bilibili.com/video/BV1iF411k7cu">https://www.bilibili.com/video/BV1iF411k7cu</a></p><p>有什么问题可以在视频评论区找我</p>]]></content>
+    <content type="html"><![CDATA[<p>今天我们要介绍的项目是一个 <a href="https://github.com/maboloshi/github-chinese">汉化 GitHub 的脚本</a></p><p>在项目的文档里明确的写着安装过程，请大家自己查阅</p><p>安装视频：<a href="https://www.bilibili.com/video/BV1iF411k7cu">https://www.bilibili.com/video/BV1iF411k7cu</a></p><p>有什么问题可以在视频评论区找我</p>]]></content>
     
     
     
